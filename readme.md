@@ -38,7 +38,7 @@ type input = async (output?: string) => Promise<string>
 input example:
 
 ```ts
-import { input } from "https://raw.githubusercontent.com/johnsonjo4531/pythonic_input/v0.0.0/input.ts";
+import { input } from "https://raw.githubusercontent.com/johnsonjo4531/pythonic_input/0.0.0/input.ts";
 
 (async () => {
 	console.log("-- DENO ADDER --");
@@ -62,7 +62,7 @@ type inputNullable = async (output?: string) => Promise<string | null>
 inputNullable example:
 
 ```ts
-import { inputNullable } from "https://raw.githubusercontent.com/johnsonjo4531/pythonic_input/v0.0.0/input.ts";
+import { inputNullable } from "https://raw.githubusercontent.com/johnsonjo4531/pythonic_input/0.0.0/input.ts";
 
 (async () => {
 	console.log("-- DENO ADDER --");
@@ -80,7 +80,7 @@ The `inputReader` method allows you to create an `input` or `inputNullable` meth
 inputReader example:
 
 ```ts
-import { inputReader } from "https://raw.githubusercontent.com/johnsonjo4531/pythonic_input/v0.0.0/input.ts";
+import { inputReader } from "https://raw.githubusercontent.com/johnsonjo4531/pythonic_input/0.0.0/input.ts";
 
 // you could substitute Deno.stdin and Deno.stdout with any open file (with appropriate permissions)
 // or with a Deno Reader and Writer.
@@ -107,13 +107,13 @@ An example using the input method is given in [`./examples/input.ts`](./examples
 Try it out
 
 ```sh
-$ deno https://raw.githubusercontent.com/johnsonjo4531/pythonic_input/v0.0.0/examples/input.ts
+$ deno https://raw.githubusercontent.com/johnsonjo4531/pythonic_input/0.0.0/examples/input.ts
 ```
 
 Here's an example run of the program
 
 ```sh
-$ deno https://raw.githubusercontent.com/johnsonjo4531/pythonic_input/v0.0.0/examples/input.ts
+$ deno https://raw.githubusercontent.com/johnsonjo4531/pythonic_input/0.0.0/examples/input.ts
 -- DENO ADDER --
 Enter a number: 2
 Enter another number: 3
@@ -135,7 +135,7 @@ $ time deno -A examples/cat.ts mobydick.txt
 or if you didn't install it yet:
 
 ```sh
-$ time deno -A https://raw.githubusercontent.com/johnsonjo4531/pythonic_input/v0.0.0/examples/cat.ts mobydick.txt
+$ time deno -A https://raw.githubusercontent.com/johnsonjo4531/pythonic_input/0.0.0/examples/cat.ts mobydick.txt
 ```
 
 Deno's cat example
