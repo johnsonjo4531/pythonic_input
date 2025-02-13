@@ -1,4 +1,4 @@
-import { input } from "../input.ts";
+import { input } from "../mod.ts";
 
 (async () => {
 	console.log("-- DENO ADDER --");

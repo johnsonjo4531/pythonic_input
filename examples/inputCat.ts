@@ -1,4 +1,4 @@
-import { inputReader } from "../input.ts";
+import { inputReader } from "../mod.ts";
 
 async function cat(filenames: string[]): Promise<void> {
 	const newlinebytes = new TextEncoder().encode("\n");
